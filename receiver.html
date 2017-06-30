@@ -31,7 +31,7 @@ limitations under the License.
 	    background-color:#000000;
 	    font-weight:bold;
 	    font-family:Verdana, Geneva, sans-serif;
-	    font-size:40px;
+	    font-size:15px;
 	}
     </style>
     <title>Cast Hello Text</title>
@@ -93,10 +93,25 @@ limitations under the License.
       
       // utility function to display the text message in the input field
       function displayText(text) {
-        console.log(text);
-        document.getElementById("message").innerHTML=text;
+      	var url = "https://script.googleusercontent.com/macros/echo?user_content_key=OW1tHGHGAfaGmNSiW_cVp5o3Dn4AR36mMIguecbsilTSYeDN9_NyhFg4h4Tnl7V6uvNys-Umjl4x2cs0rr8jlaUThDvHxmwOm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJ9GRkcRevgjTvo8Dc32iw_BLJPcPfRdVKhJT5HNzQuXEeN3QFwl2n0M6ZmO-h7C6eIqWsDnSrEd&lib=MwxUjRcLr2qLlnVOLh12wSNkqcO1Ikdrk"
+        
+
+      	var xhr = new XMLHttpRequest();
+		
+
+		xhr.onreadystatechange = function() {
+		    if (xhr.readyState == XMLHttpRequest.DONE) {
+		        document.getElementById("message").innerHTML=xhr.responseText;
+		    }
+		}
+		xhr.open('GET', url, true);
+		xhr.send(null);
+
+      	console.log(text);
+        
         window.castReceiverManager.setApplicationState(text);
       };
+      displayText("bs");
     </script>
   </body>
 </html>
