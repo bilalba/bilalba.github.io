@@ -3,7 +3,7 @@
 - company: Cyber-Socio Intelligent Systems (CySIS) Lab, Arizona State University
   position: Software Engineer, Backend
   duration: May 2017 &mdash; Present
-  summary: Developing API calls on Spring MVC, PostGRESQL, MongoDB and Elastic Search. 	<ul class="resume-item-list"><li>Redesigned and implemented Login API to reduce latency from upto 400ms to 50ms</li></ul>
+  summary:<ul class="resume-item-list"> <li>Developing API calls on Spring MVC, PostGRESQL, MongoDB and Elastic Search. </li>	<li>Redesigned and implemented Login API to reduce latency from upto 400ms to 50ms</li></ul>
 
 # Software Developer
 - company: ClubInternet
