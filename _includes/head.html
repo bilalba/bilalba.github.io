@@ -10,8 +10,8 @@
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
   {% endif %}
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}">
-<meta name="author" content="{% if page.author %}{{ page.author }}">
+<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% endif %}">
+<meta name="author" content="{% if page.author %}{{ page.author }}{% endif %}">
   
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
