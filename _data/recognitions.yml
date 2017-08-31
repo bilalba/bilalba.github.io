@@ -4,11 +4,15 @@
   year: 2017
   summary: Top 250 in both competitions which had over 9000 participants.
 
-# - award: Duff Beer Customer of the year
-#   organization:
-#   year: 1997 &mdash; 2001, 2003, 2008 &mdash; 2012
-#   summary: Honored by <a href="https://en.wikipedia.org/wiki/Duff_Beer">Duff Beer</a> for being an outstanding customer several years straight. Qualifications included most beer consumed at a bar, most beer purchased, and most beer ralphed.
+- award: Hack Arizona 2017 - Sustainability Category Winner.
+  # organization:
+  year: 2017
+  summary: Android App that tracks speed and movement, and detects carbon footprint, incentivizing users to use greener mode of transport.
 
+- award: <a href="https://packagecontrol.io/packages/InputArgs">InputArgs - SublimeText plugin</a>
+  organization:
+  year: 2017
+  summary: A plugin that allows the user to send Input Arguments from within Sublime Text when building, compiling or running the program. Around 1000 downloads. The repository is mantained <a href="https://github.com/bilalba/InputArgs">here.</a>
 # - award: Moe's Patron of the Month
 #   organization: 
 #   year: 12/2001, 8/2004
