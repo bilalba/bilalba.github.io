@@ -1,7 +1,9 @@
 # Site settings
 title: "Bilal Bakht Ahmad"
-description: "Computer Science Graduate Student, looking fo Software Engineer Internship positions in the United States."
-
+description: "Computer Science Graduate Student, looking for Software Engineer Internship positions in the United States."
+excerpt: "Bilal Bakht Ahmad's personal website."
+author: "Bilal Bakht Ahmad"
+keywords: "Bilal Bakht Ahmad, LUMS, ASU, Arizona State University, Computer Science, MCS, MS"
 # Build settings
 markdown: kramdown
 sass:
